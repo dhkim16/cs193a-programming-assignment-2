@@ -6,6 +6,10 @@ package dhkim16.example.com.todotracker;
 public class ToDoElem
 {
     public String description;
-    public boolean high_priority;
 //    public date
+
+    public ToDoElem(String description)
+    {
+        this.description = description;
+    }
 }
